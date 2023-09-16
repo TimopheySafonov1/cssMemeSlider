@@ -17,13 +17,10 @@
 
 .caption {
     color: black;
-    /* padding: 5px; */
 	padding: 0.26vw;
     width: 100%;
     text-align: center;
     font-size: 1.5vw;
-	/* font-size: 20px; */
-    /* margin-top: 40px; */
 	margin-top: 5vh;
 	text-align: left;
 }
@@ -46,12 +43,10 @@ article img{
 #active {
     display: flex;
 	gap: 0.7vw;
-    /* width: 100%; */
 }
 
 
-/*настройка переключения и положения для левой стрелки*/
-/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+
 #switch1:checked ~ #controls label:nth-child(4), 
 #switch2:checked ~ #controls label:nth-child(1),
 #switch3:checked ~ #controls label:nth-child(2),
@@ -59,18 +54,10 @@ article img{
 	display: block;
 }
 
-/*настройка переключения и положения для правой стрелки*/
-/* #switch1:checked ~ #controls label:nth-child(2), 
-#switch2:checked ~ #controls label:nth-child(3),
-#switch3:checked ~ #controls label:nth-child(4),
-#switch4:checked ~ #controls label:nth-child(1){
-	display: block;
-} */
 
 
 
-
-label{ /*при наведении на стрелки или переключатели - курсор изменится*/
+label{
 	cursor: pointer;
 }
 
@@ -114,40 +101,33 @@ label div{
 	margin-left: -400%;
 }
 
-#controls{ /*положение блока всех управляющих элементов*/
+#controls{
 	margin: -28% 0 0 -15%;
 	width: 100%;
 	height: 6vh;
 }
 
-#active label{ /*стиль отдельного переключателя*/
-	border-radius: 50%; /*скругление углов*/
-	display: inline-block; /*расположение в строку*/
+#active label{
+	border-radius: 50%;
+	display: inline-block;
 	width: 0.9vw;
 	height: 0.9vw;
-	/* display: flex;
-	align-items: center; */
-	/* justify-content: center; */
-	/* width: 40px;
-	height: 40px; */
 	border: 2px solid #18a3dd;
 	background: #18a3dd;
-    /* border: 2px solid #18a3dd;
-	background: #18a3dd; */
 }
 
-#active{ /*расположение блока с переключателями*/
+#active{ 
 	margin: 23% 0 0 63%;
 	text-align: center;
 	margin-right: 150px;
 }
 
-#active label:hover{ /*поведение чекбокса при наведении*/
+#active label:hover{ 
 	background: yellow;
 	border-color: blue !important; 
 }
 
-/*цвет активного лейбла при активации чекбокса*/
+
 #switch1:checked ~ #active label:nth-child(1),
 #switch2:checked ~ #active label:nth-child(2),
 #switch3:checked ~ #active label:nth-child(3),
@@ -177,14 +157,13 @@ label div{
 }
 
 @media (max-width:520px){
-	#controls{ /*положение блока всех управляющих элементов*/
+	#controls{ 
 		margin: -40% 0 0 -30%;
 		width: 100%;
 		height: 6vh;
 	}
 
-	#active{ /*расположение блока с переключателями*/
-		/* margin: 23% 0 0 47%; */
+	#active{ 
 		margin: -30% 0 0 45%;
 		text-align: center;
 		margin-right: 150px;
