@@ -62,10 +62,7 @@ label{
 }
 
 							
-.viewed{
-	width: 100px;
-	overflow: hidden;
-}
+
 
 label div{
 	width: 3vw;
@@ -112,14 +109,13 @@ label div{
 	display: inline-block;
 	width: 0.9vw;
 	height: 0.9vw;
-	border: 2px solid #18a3dd;
+	border: 0.15vw solid #18a3dd;
 	background: #18a3dd;
 }
 
 #active{ 
 	margin: 23% 0 0 63%;
 	text-align: center;
-	margin-right: 150px;
 }
 
 #active label:hover{ 
@@ -166,7 +162,6 @@ label div{
 	#active{ 
 		margin: -30% 0 0 45%;
 		text-align: center;
-		margin-right: 150px;
 	}
 
 	.caption{
