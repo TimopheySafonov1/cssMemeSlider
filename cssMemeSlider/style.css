@@ -179,7 +179,7 @@ label div{
 	#switch4:checked ~ #active label:nth-child(4)
 	{
 		background: none;
-		border: 0.4vw solid #18a3dd;
+		border: 0.2vw solid #18a3dd;
 		z-index: -1;
 	}
 
@@ -191,7 +191,7 @@ label div{
 	#switch4:checked ~ #active label:nth-child(4)
 	{
 		background: none;
-		border: 0.4vw solid #18a3dd;
+		border: 0.2vw solid #18a3dd;
 		z-index: -1;
 	}
 }
